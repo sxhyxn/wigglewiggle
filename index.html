@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위글위글</title>
+    <link rel="shortcut icon" href="img/favicon-ww.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="notice">
+        방문해주셔서 감사합니다! <br> 본 사이트는 상업적 목적으로 만든게 아닌 <br> 개인 포트폴리오용 리뉴얼 사이트이며 <br>크롬브라우저의 "1920 x 1080" 해상도에 <br>최적화된 사이즈입니다. 
+        <input class="chbox" type="checkbox" id="cb">
+        <label class="hide" for="cb">24시간 보이지 않기</label>
+        <a href="#"class="close">
+            <i class="fas fa-times"></i>
+        </a>
+    </div>
+    <!-- //cookie -->
+
+
+    <div class="ie">
+        <p>본 사이트는 Full CSS 3D가 사용된 페이지로 webkit기반 브라우저(크롬, 사파리 등)에서 확인하십시오.</p>
+        <h2>본 사이트는 포트폴리오용이며, 크롬, 엣지 또는 사파리에서 확인해주시길 바랍니다. <br>감사합니다.
+        </h2>
+    </div>
+    <!-- //ie -->
+
+
+    <nav class="gnb" id="navbar">
+        <div class="left">
+            <div class="main_menu">
+                <ul class="main">
+                    <li>
+                        <a class="mn_tit" href="#">LIVING</a>
+                        <div class="sub container">
+                            <dl>
+                                <dt><a href="#">파티용품</a></dt>
+                                <dd><a href="#">파티초</a></dd>
+                                <dd><a href="#">파티컵</a></dd>
+                                <dd><a href="#">테이블보</a></dd>
+                                <dd><a href="#">파티커튼</a></dd>
+                                <dd><a href="#">풍선</a></dd>
+                                <dd><a href="#">토퍼</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">홈데코</a></dt>
+                                <dd><a href="#">홈슬리퍼</a></dd>
+                                <dd><a href="#">발매트</a></dd>
+                                <dd><a href="#">쿠션담요</a></dd>
+                                <dd><a href="#">벽시계</a></dd>
+                                <dd><a href="#">사각러그</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">욕실용품</a></dt>
+                                <dd><a href="#">세안밴드</a></dd>
+                                <dd><a href="#">욕실슬리퍼</a></dd>
+                                <dd><a href="#">발매트</a></dd>
+                                <dd><a href="#">타월</a></dd>
+                                <dd><a href="#">칫솔살균기</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">문구</a></dt>
+                                <dd><a href="#">펜 &amp; 노트</a></dd>
+                                <dd><a href="#">스티커</a></dd>
+                                <dd><a href="#">마그넷</a></dd>
+                                <dd><a href="#">클립보드</a></dd>
+                                <dd><a href="#">줄자</a></dd>
+                                <dd><a href="#">메모지</a></dd>
+                                <dd><a href="#">연필꽂이</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">주방용품</a></dt>
+                                <dd><a href="#">컵 / 머그</a></dd>
+                                <dd><a href="#">텀블러</a></dd>
+                                <dd><a href="#">접시</a></dd>
+                                <dd><a href="#">수세미</a></dd>
+                                <dd><a href="#">실리콘 아이스 트레이</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mn_tit" href="#">OUTDOOR</a>
+                        <div class="sub container">
+                            <dl>
+                                <dt><a href="#">차량용품</a></dt>
+                                <dd><a href="#">주차번호판</a></dd>
+                                <dd><a href="#">차량커튼</a></dd>
+                                <dd><a href="#">스티커</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">피크닉</a></dt>
+                                <dd><a href="#">피크닉매트</a></dd>
+                                <dd><a href="#">보냉백</a></dd>
+                                <dd><a href="#">비치타월</a></dd>
+                                <dd><a href="#">와인백</a></dd>
+                                <dd><a href="#">와인마개</a></dd>
+                                <dd><a href="#">젤리백</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">캠핑 / 여행</a></dt>
+                                <dd><a href="#">레디백</a></dd>
+                                <dd><a href="#">침구류</a></dd>
+                                <dd><a href="#">파우치</a></dd>
+                                <dd><a href="#">카트</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">스포츠</a></dt>
+                                <dd><a href="#">골프</a></dd>
+                                <dd><a href="#">테니스</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mn_tit" href="#">DIGITAL</a>
+                        <div class="sub container">
+                            <dl>
+                                <dt><a href="#">모바일</a></dt>
+                                <dd><a href="#">폰케이스</a></dd>
+                                <dd><a href="#">그립톡</a></dd>
+                                <dd><a href="#">폰스트랩</a></dd>
+                                <dd><a href="#">에어팟 맥스 케이스</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">PC / 노트북</a></dt>
+                                <dd><a href="#">마우스 / 키보드</a></dd>
+                                <dd><a href="#">파우치 / 가방</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mn_tit" href="#">FAMILY</a>
+                        <div class="sub container">
+                            <dl>
+                                <dt><a href="#">키즈</a></dt>
+                                <dd><a href="#">신발</a></dd>
+                                <dd><a href="#">잡화</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">펫</a></dt>
+                                <dd><a href="#">침대 / 방석</a></dd>
+                                <dd><a href="#">장난감</a></dd>
+                                <dd><a href="#">용품</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mn_tit" href="#">FASHION</a>
+                        <div class="sub container">
+                            <dl>
+                                <dt><a href="#">의류</a></dt>
+                                <dd><a href="#">로브 / 랩타월</a></dd>
+                                <dd><a href="#">파자마</a></dd>
+                                <dd><a href="#">상의</a></dd>
+                                <dd><a href="#">하의</a></dd>
+                                <dd><a href="#">신발</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">가방</a></dt>
+                                <dd><a href="#">피크닉백</a></dd>
+                                <dd><a href="#">쇼퍼백</a></dd>
+                                <dd><a href="#">메쉬백</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">액세서리</a></dt>
+                                <dd><a href="#">실리콘참</a></dd>
+                                <dd><a href="#">우산</a></dd>
+                                <dd><a href="#">양말</a></dd>
+                                <dd><a href="#">모자</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- //left -->
+        <div class="center">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div><!-- //center -->
+        <div class="right">
+            <ul>
+                <li><a href="#">EVENT</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+            <div class="icon">
+                <a href="#">
+                    <img src="img/search.png" alt="search">
+                </a>
+                <a href="#">
+                    <img src="img/basket.png" alt="basket">
+                </a>
+                <a href="#">
+                    <img src="img/user.png" alt="user">
+                </a>
+            </div>
+        </div><!-- //right -->
+    </nav>
+    <!-- //gnb -->
+
+    <div class="wrap">
+        <section class="one"
+            style="background: url(img/230327_fashion_pc\ \(1\).gif) no-repeat center;">
+            <ul class="menu">
+                <li>“Isn’t there</li>
+                <li>anything that</li>
+                <li>repeats and</li>
+                <li>is also funny?”</li>
+                <li>How about</li>
+                <li>changing your life</li>
+                <li>with full of fun</li>
+                <li>by unique designs of</li>
+                <li>Wiggle Wiggle?</li>
+            </ul>
+            <div class="mask">
+                <ul class="menu-mask">
+                    <li>“Isn’t there</li>
+                    <li>anything that</li>
+                    <li>repeats and</li>
+                    <li>is also funny?”</li>
+                    <li>How about</li>
+                    <li>changing your life</li>
+                    <li>with full of fun</li>
+                    <li>by unique designs of</li>
+                    <li>Wiggle Wiggle?</li>
+                </ul>
+            </div>
+        </section>
+        <!-- //one -->
+
+        <section class="two" style="background: url(./img/back/py1_bg.png) no-repeat center; background-size: cover;">
+            <div class="about_title">
+                <div class="text">
+                    <h1 class="animate" data-animate="bounceIn" data-duration="0.5s" data-delay="0.5s"> Always
+                        witty!<br> welcome to wiggle wiggle!</h1>
+                    <h3 class="animate" data-animate="bounceIn" data-duration="0.5s" data-delay="0.8s">일상의 명도와 채도를 높이는
+                        라이프 스타일 브랜드</h3>
+                    <div class="star">
+                        <img src="img/about/happy-star1.png" alt="star">
+                        <img src="img/about/happy-star11.png" alt="star">
+                    </div>
+                </div><!-- //title -->
+                <div class="happy" 
+                data-390="opacity:0; display:none"
+                data-400="opacity:0; display:block"
+                data-600="top:0%; left:0; opacity:1; display:block"
+                data-1000="top:30%; left:0; opacity:1; display:block" data-1300="top:100%; left:100%; opacity:1; display:none">
+                    <img class="le" src="img/about/happy-removebg-preview (2).png" alt="happy">
+                    <img class="ri" src="img/about/happy-removebg-preview (2).png" alt="happy">
+                </div><!-- //happy -->
+            </div><!-- //about_title -->
+            <div class="about_gif">
+                <div class="tab_wrap">
+                    <div class="contentWrap">
+                        <img class="img0" src="img/about/ab_color.gif" alt="이미지0">
+                        <div class="Fun desc">
+                            <h1>F U N</h1>
+                            <p><span>'뻔'한 물건이 위글위글을 만나면 'FUN'해집니다.</span><br>
+                                우리는 너무 평범해서 지나치던 물건들을<br> 행복과 웃음을 주는 선물로 바꾸는 일을 해요. <br>위글위글과 함께라면, 당신의 일상은 <br>깔깔거리는
+                                웃음소리와 씰룩씰룩 흔드는 몸짓,<br> 호기심 가득한 사람들의 시선으로 가득 찰 거에요.</p>
+                        </div>
+                    </div>
+                    <div class="contentWrap">
+                        <img class="img0" src="img/about/ab_fun.gif" alt="이미지0">
+                        <div class="desc" id="desc">
+                            <h1>W I T</h1>
+                            <p>우리는 생각했어요. 어떻게 하면 가장 빨리, <br>가장 안전하게 상품을 배송할 수 있을까?<br>
+                                <span>정답은 바로, P-I-Z-Z-A !</span><br>
+                                우리는 평범한 택배박스를<br> 피자 상자로 만들어버렸어요. <br> 그 결과, 우리의 상품은 피자만큼 빠르게, <br> 여전히 핫-한 모습으로 여러분의 품에
+                                도착했죠. <br>작전 성공! MISSTION COMPLETE!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contentWrap">
+                        <img class="img0" src="img/about/ab_wit.gif" alt="이미지0">
+                        <div class="desc" id="desc">
+                            <h1>C O L O R</h1>
+                            <p>무채색 패션을 즐기지만 <br> 과감한 포인트 액세서리는 포기할 수 없다면, <br>비비드한 양말이 패션의 완성이라고 믿는다면, <br>
+                                <span>이미 당신은 위글위글 스러운 사람!</span><br>
+                                망설이지 마세요. 평범함을 거부하는 당신의<br> 소울메이트 위글위글과 함께 있는 그대로의 <br>당신을 마음껏 표현하세요! <br>
+                                <span>자, 당신의 컬러는 무엇인가요?</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="buttonWrap">
+                        <button class="btn1" type="button"><img src="img/about/b1-removebg-preview.png" alt=""></button>
+                        <button class="btn2" type="button"><img src="img/about/b2-removebg-preview.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //two -->
+
+        <section class="panorama">
+            <article class="pano_cont">
+                <div class="pano_wrap">
+                    <ul class="list">
+                        <li>
+                            <figure>
+                                <img src="img/pano/1.png" alt="1">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/2.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/3.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/4.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/5.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/6.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/7.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/8.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/9.png" alt="이미지">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/pano/10.png" alt="이미지">
+                            </figure>
+                        </li>
+                    </ul>
+                </div><!-- //pano_wrap -->
+                <div class="controls">
+                    <a href="#" class="play_on active not">
+                        <i class="far fa-play-circle play"><em>재생</em></i>
+                        <i class="far fa-pause-circle pause"><em>정지</em></i>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <!-- //panorama -->
+        
+        <section class="three" style="background: url(./img/back/cat_bg.png) no-repeat center; background-size: cover;">
+            <div class="th-side">
+                <div class="circle"></div>
+                <img class="cloud1 animate" data-animate="fadeInRightBig" data-duration="0.7s" data-delay="0.4s"
+                    src="img/top/cloude-removebg-preview.png" alt="cloude">
+                <img class="cloud2 animate" data-animate="fadeInLeftBig" data-duration="0.7s" data-delay="0.6s"
+                    src="img/top/cloude-removebg-preview.png" alt="cloude">
+                <img class="cloud3 animate" data-animate="fadeInLeftBig" data-duration="0.7s" data-delay="0.5s"
+                    src="img/top/cloude-removebg-preview.png" alt="cloude">
+                <div class="more">
+                    <p>View More</p>
+                    <img class="click" src="img/best/pngegg.png" alt="click">
+                    <a class="not" target="_blank" href="https://wiggle-wiggle.com/product/list.html?cate_no=332" target="_self">
+                        <img class="cat" src="img/best/cat-removebg-preview.png" alt="cat">
+                    </a>
+                </div>
+            </div><!-- //side -->
+            <div class="slider">
+                <div>
+                    <div class="slide_desc">
+                        <h2>Umbrella <br> Teddy Bear</h2>
+                        <div class="price">
+                            <s>16,800원</s>
+                            <p>15,100원</p>
+                            <h3>10%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>위글위글과 함께라면 비 오는 날도 기다려져요! <br> 투명 POE소재로 시야를 가리지 않아<br> 비가 내리는 날에도 안전해요.<br> 오픈 클로징 탭과
+                                벨크로 스트랩으로 <br>편리하게 사용 가능합니다.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/umbrella-removebg-preview.png" alt="umbrella">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>Party Cup<br>SET</h2>
+                        <div class="price">
+                            <s>14,900원</s>
+                            <p>13,400원</p>
+                            <h3>10%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>재사용가능한 고강도 플라스틱 소재 보틀과 <br> 5개의 잔으로 구성되어 보관과 이동이 편리해요! <br>잔과 받침대는 분리형으로 손쉽게 <br>조립 및 보관이
+                                가능합니다.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/party_cupset-removebg-preview.png" alt="party_cupset">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>Golf Starter<br>Pack</h2>
+                        <div class="price">
+                            <s>323,000원</s>
+                            <p>139,000원</p>
+                            <h3>57%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>골프 입문자를 위한 A TO Z 골린이 패키지! <br>Smile We Love와 다양한 컬러의 <br>조화로움을 선보인 디자인입니다. <br>레디백을 패키지로
+                                포장하여 선물용으로도 적합해요.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/golf_starter-removebg-preview.png" alt="starter">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>Cushion &<br>blanket</h2>
+                        <div class="price">
+                            <s>42,000원</s>
+                            <p>34,200원</p>
+                            <h3>20%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>촘촘한 미세모로 이루어져 일반 담요보다 <br>훨씬 더 부드러운 플란넬 극세사로 제작되었습니다. <br>기분 좋은 촉감을 느껴보세요! <br>꿀 같은 낮잠이
+                                필요할 때 담요를 덮고, <br>팔에 쿠션을 끼워보세요. <br>편안한 낮잠 베게가 됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/cushionblanket-removebg-preview.png" alt="cushion">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>PET<br>Cushion Bed</h2>
+                        <div class="price">
+                            <s>129,000원</s>
+                            <p>76,600원</p>
+                            <h3>41%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>반려동물의 편안한 휴식을 위한 <br>부드러운 극세사 소재의 쿠션입니다. <br>바닥면에 논슬립 기능을 더하여 쉽게 미끄러지지 않고, <br>쿠션이 분리되어
+                                위생적으로 관리할 수 있어요!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/car-removebg-preview.png" alt="car">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>CASE<br>Couch Potato</h2>
+                        <div class="price">
+                            <s>23,000원</s>
+                            <p>17,200원</p>
+                            <h3>25%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>옆면 TPU 범퍼로 탈착은 쉽고 부드러우며, <br>뒷면은 PC 소재로 되어있어 <br>충격 흡수 및 표면 스크래치에 강합니다. <br>해당상품은 주문 제작
+                                상품으로 <br>결제 완료시 상품 제작이 시작됩니다!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/case-removebg-preview.png" alt="case">
+                    </div>
+                </div>
+                <!-- // -->
+                <div>
+                    <div class="slide_desc">
+                        <h2>Happy<br>Candles</h2>
+                        <div class="price">
+                            <s>14,400원</s>
+                            <p>11,500원</p>
+                            <h3>20%</h3>
+                        </div>
+                        <div class="item_desc">
+                            <p>반복되는 일상이지만 우리 삶엔 사소한 즐거움이 있습니다.<br> "Wiggle Wiggle"은 장난스럽고 에너지 넘치는<br> 우리의 일상에서 모티브를
+                                발견합니다. <br>당신의 일상에는 어떤 즐거움이 있나요?</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/best/candles-removebg-preview.png" alt="candles">
+                    </div>
+                </div>
+                <!-- // -->
+            </div><!-- //slider -->
+        </section>
+        <!-- //three -->
+
+        <section class="wg_heart">
+            <svg id="hearts" viewBox="-500 -150 1000 800" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <symbol  id="heart" viewBox="-69 -16 138 138">
+                  <path d="M0,12
+                           C 50,-30 110,50  0,120
+                           C-110,50 -50,-30 0,12z"/>
+                  </symbol>
+              </defs>
+              </svg>
+        </section>
+        <!-- //heart -->
+
+        <section class="four">
+            <div class="box_items-l">
+                <img src="img/new/img1-removebg-preview.png" alt="img1">
+                <img src="img/new/img2-removebg-preview.png" alt="img2">
+            </div>
+            <div class="box_items-r">
+                <img src="img/new/img3-removebg-preview.png" alt="img3">
+                <img src="img/new/img4-removebg-preview.png" alt="img4">
+                <img src="img/new/img5-removebg-preview.png" alt="img5">
+            </div>
+            <div class="top_box">
+                <h2>NEW ITEM</h2>
+            </div><!-- //top_box -->
+            <div class="fix_motion">
+                <article class="fix_wrap inner clearfix">
+                    <div class="motion_sub">
+                        <h2>
+                            흐릿한 생활 속 <br>쨍한 컬러 한 방울!<br><span>Smile We Love <br> "Platform Sliper"</span>
+                        </h2>
+                        <img class="tl" src="img/new/wanna (1).png" alt="img6">
+                        <img class="br" src="img/new/wanna (2).png" alt="img7">
+                    </div>
+                    <div class="text_box">
+                        <p class="text01">
+                            <span>정말 위글위글스러운 컬러와 디자인</span><br>
+                            쨍한 색감이 회색으로 물든 우리 삶을 <br>한단계 밝게 만들어줄거에요.
+                        </p>
+                        <p class="text02">
+                            <span>위글위글의 스테디셀러</span><br> 'smile we love' 꽃이 콕콕! <br>
+                            4단구조로 예쁘기만 한게 아니라 <br>발등에 맞는 촉감까지 신경썼어요.
+                        </p>
+                        <p class="text03">
+                            <span>인솔 Insole</span> <br>
+                            평균적 발 구조에 맞게 굴곡을 주어<br> 발에 착~ 감기는 듯한 착용감! <br> 요가블록이나 유아용 매트로 자주 쓰이는 <br>EVA소재를
+                            사용했어요.
+                        </p>
+                        <p class="text04">
+                            <span>미드솔 Midsole</span> <br>
+                            쉽게 발이 피로해지는 슬리퍼의 단점을 <br>해결하기 위해 각 층마다 경도와 탄성을 <br>다르게 특화하여 제작해 EVA 스펀지<br> 저마다 높이와
+                            굴곡이 다르답니다. <br>50mm 키높이 효과는 덤!
+                        </p>
+                        <p class="text05">
+                            <span>아웃솔 Outsole</span> <br>
+                            밑창 디테일도 놓칠 수 없죠! <br> ㄱ과 ㄴ이 교차하는 바닥패턴덕에<br> 바닥의 물기와 접촉되는 접지면의 마찰력은 <br>극대화되고 높낮이가 다른 굴곡이 있어
+                            <br>물이 고이지 않고 빠르게 배출되기 때문에 <br>쉽게 미끄러지지 않아요.
+                        </p>
+                        <p class="text06">
+                            이것저것 마구 추가되어 <br>무거울것 같다구요? <br><span>걱정마세요</span><br>이렇게 좋은게 다 들어가도 <span>가볍습니다!</span>
+                        </p>
+                    </div><!-- //text_box -->
+                    <div class="device_box">
+                        <div class="watch_img">
+                            <figure class="img_device">
+                                <img src="img/new/back.png" alt="watch">
+                            </figure>
+                            <div class="slide_wrap">
+                                <div class="slide">
+                                    <figure>
+                                        <img src="img/new/01.png" alt="1">
+                                    </figure>
+                                    <figure>
+                                        <img src="img/new/02.png" alt="2">
+                                    </figure>
+                                    <figure>
+                                        <img src="img/new/03.png" alt="3">
+                                    </figure>
+                                    <figure>
+                                        <img src="img/new/04.png" alt="4">
+                                    </figure>
+                                    <figure>
+                                        <img src="img/new/05.png" alt="5">
+                                    </figure>
+                                    <figure>
+                                        <img src="img/new/06.png" alt="6">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //device_box -->
+                </article>
+            </div>
+        </section>
+        <!-- //four -->
+
+        <section class="five">
+            <div class="collaboWrap">
+                <div class="col_tit">
+                    <h2>COLLABO with WIGGLE</h2>
+                </div>
+                <!-- //col_tit -->
+                <div class="col_slide">
+                    <div class="col_logos">
+                        <div class="slide-logos">
+                            <div class="slide-image">
+                                <img src="img/logos/air busan.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/br.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/cu.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/energy.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/everland.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/롯데칠성.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kb국민은행.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kitty.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/korail.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kovea.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slide-logos">
+                            <div class="slide-image">
+                                <img src="img/logos/air busan.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/br.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/cu.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/energy.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/everland.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/롯데칠성.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kb국민은행.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kitty.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/korail.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/kovea.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col_logos">
+                        <div class="slide-logos reverse">
+                            <div class="slide-image">
+                                <img src="img/logos/kyobo.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/LnL.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/maeil.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/mamonde.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/olive.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/paris.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/ss.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/stanley.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/vips.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/westin.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="slide-logos reverse">
+                            <div class="slide-image">
+                                <img src="img/logos/kyobo.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/LnL.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/maeil.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/mamonde.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/olive.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/paris.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/ss.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/stanley.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/vips.png" alt="">
+                            </div>
+
+                            <div class="slide-image">
+                                <img src="img/logos/westin.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //col_slide -->
+            </div>
+        </section>
+        <!-- //five -->
+
+        <section class="six">
+            <div class="event_tit">
+                <h2>EVENT</h2>
+            </div>
+            <div id="slidephoto">
+                <div id="slidephotos">
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                </div>
+            </div>
+            <div id="event">
+                <div id="event_txt">
+                    <div class="stext" id="soon">
+                        <h1>Coming soon</h1>
+                        <p>New Product</p>
+                    </div>
+                    <div class="line">
+                        <div class="hrline"></div>
+                    </div>
+                    <div class="stext" id="zone">
+                        <h1>29ZONE</h1>
+                        <p>Limited quantity</p>
+                    </div>
+                    <div class="line">
+                        <div class="hrline"></div>
+                    </div>
+                    <div class="stext" id="game">
+                        <h1>Game coupon</h1>
+                        <p>Rock Paper Scissors</p>
+                    </div>
+                    <div class="line">
+                        <div class="hrline"></div>
+                    </div>
+                    <div class="stext" id="shop">
+                        <h1>Offline Shop</h1>
+                        <p>Dosan Plagship</p>
+                    </div>
+                    <div class="line">
+                        <div class="hrline"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //six -->
+
+        <section class="seven clearfix">
+            <div class="seven_back">
+                <div id="particles-js"></div>
+            </div>
+
+            <div class="location">
+                <div class="card">
+                    <div class="card_front">
+                        <div class="card_tit">
+                            <h2>LOCATION</h2>
+                            <h4>위글위글 집 오시는 길</h4>
+                        </div>
+                        <div class="card_desc">
+                            <div class="loca">
+                                <h3>주소</h3>
+                                <p>서울특별시 강남구 언주로 168길 31 <br> 위글위글 도산 플래그십 스토어</p>
+                                <p class="bold">*압구정로데오역 5번 출구에서 603m (도보 9분)</p>
+                            </div>
+                            <div class="time">
+                                <h3>운영시간</h3>
+                                <p>매일 AM 11:00 - PM 8:00</p>
+                            </div>
+                            <div class="contact">
+                                <h3>CONTACT</h3>
+                                <p>02-6959-2051</p>
+                            </div>
+                        </div>
+                        <div class="spinner"></div>
+                    </div>
+                    <div class="card_back">
+                        <div class="flower">
+                            <img src="img/location/smile.png" alt="swl">
+                            <img src="img/location/smileF.png" alt="swlf">
+                        </div>
+                        <div class="btn">
+                            <a class="not" target="_blank" href="https://wiggle-wiggle.com/custom/flagship.html">위글위글 집 도산, 바로가기!</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="map">
+                <div class="dosan">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d332.59874857773116!2d127.03610590586933!3d37.526066099315464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3b284865c09%3A0xbd0ef2d591acc8ae!2z7JyE6riA7JyE6riA7KeRIOuPhOyCsA!5e0!3m2!1sko!2skr!4v1689149776645!5m2!1sko!2skr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- //seven -->
+    </div>
+    <!-- //wrap -->
+
+    <footer>
+        <div class="f_wrap clearfix">
+            <div class="f_sns">
+                <ul>
+                    <li><a class="not" href="https://www.facebook.com/wigglewiggle.official" target="_blank">Facebook</a></li>
+                    <li><a class="not" href="https://www.instagram.com/wigglewiggle.official/" target="_blank">instagram</a></li>
+                </ul>
+            </div>
+            <div class="f_copyright">
+                <span>COPYRIGHT</span>
+                <strong>© WIGGLEWIGGLE</strong>
+                <span>ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="f_contact">
+                <ul>
+                    <li><strong>TEL</strong>
+                        <span>1533 - 8266</span>
+                    </li>
+                    <li>
+                        <strong>E-MAIL</strong>
+                        <span>biz_as@artshare.kr</span>
+                    </li>
+                    <li>
+                        <strong>ADDRESS</strong>
+                        <span>04782 서울특별시 강남구 테헤란로44길 8 (역삼동) 4층</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="f_terms">
+                <ul>
+                    <li><a class="not" href="https://wiggle-wiggle.com/member/privacy.html">개인정보처리방침</a></li>
+                    <li>대표이사 : 모성현</li>
+                    <li>사업자 등록번호 : 201-86-38817</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+
+    <a href="#" class="upBtn not" id="upBtn">
+        <img src="img/ico_char_01.png" alt="up">
+    </a>
+    <!-- /upBtn -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-scrolla@0.0.3/dist/js/jquery.scrolla.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- modernizr cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        var s = skrollr.init();
+
+        $('.slider').slick({
+            autoplay: true,
+            pauseOnHover: false,
+            infinite: true,
+            fade: true
+        });
+    </script>
+
+</body>
+
+</html>
